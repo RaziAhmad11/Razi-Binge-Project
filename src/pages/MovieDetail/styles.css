@@ -1,0 +1,170 @@
+.outer-detail
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.left-detail
+{
+	display: flex;
+	width: 30%;
+	backdrop-filter: blur(8px) grayscale(80%);
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); 
+}
+
+.left-detail img
+{
+	width: 100%;
+	border-radius: 0%; 
+	object-fit: cover;
+	height: 80vh;
+	border-radius: 10px;
+}
+
+.left-detail .social-media
+{
+	position: absolute;
+	display:flex;
+	flex-direction:column;
+}
+
+.left-detail .social-media img
+{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+
+.left-detail .social-media img:hover
+{
+	cursor:pointer;
+	transform: scale(1.1);
+}
+
+.right-detail
+{
+	display: flex;
+	width: 70%;
+	backdrop-filter: blur(8px) grayscale(80%);
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); 
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+}
+
+.right-detail .title-text
+{
+	display: flex;
+	color: white;
+	font-size: 10vh;
+	font-family: 'Bebas Neue', cursive;
+	justify-content: center;
+	border-bottom: 4px solid red;
+}
+
+.right-detail .detail-tabs
+{
+	display: flex;
+	margin:1%;
+	color: white;
+	font-size: 25px;
+	font-family: 'Work Sans', sans-serif;
+	flex-direction: row;
+	padding: 2px;
+	justify-content: space-around;
+	transition: .2s ease-in-out;
+}
+
+.right-detail .detail-tabs:hover
+{
+	cursor:pointer;
+}
+
+.right-detail .detail-mid
+{
+	margin:1%;
+	color: white;
+	font-size: 25px;
+	width: 80%;
+	font-family: 'Work Sans', sans-serif;
+	justify-content: space-around;
+}
+
+.right-detail .similar-detail
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .left-detail
+  {
+  	width:80%;
+  }
+  .right-detail
+  {
+  	width:100%;
+  }
+  .right-detail .detail-tabs
+  {
+  	font-size: 20px;
+  }
+  .right-detail .detail-mid
+  {
+  	font-size: 20px;
+  }
+}
+
+
+.modal-box
+{
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: black;
+  margin: 15% auto; 
+  padding: 25px;
+  border: 1px solid #888;
+  width: 20%;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* The Close Button */
+.close {
+  color: grey;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link{
+	text-decoration: none;
+	color: white;
+}

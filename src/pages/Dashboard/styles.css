@@ -1,0 +1,37 @@
+body
+{
+	background-color: black;
+}
+
+h1
+{
+	color: white;
+}
+
+.wrapper
+{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wrapper-inner
+{
+	display: flex;
+	width: 90%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.text2
+{
+	text-align: left;
+	color: white;
+	font-size: 40px;
+	width: 90%;
+	padding:5px;
+	font-weight: 100;
+}

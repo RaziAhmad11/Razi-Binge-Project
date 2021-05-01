@@ -1,0 +1,34 @@
+.outer-movie
+{
+	display: flex;
+	width: 15%;
+	padding: 5px;
+}
+.outer-movie img
+{
+	width: 100%;
+	height: auto;
+	border-radius: 0%;
+	transition: linear 0.5s;
+}
+
+.outer-movie img:hover
+{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .outer-movie
+  {
+  	width: 40%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .outer-movie
+  {
+  	width: 80%;
+  }
+}
