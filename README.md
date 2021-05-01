@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Binge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Browse movies and share them with your friends!
 
-## Available Scripts
+The hosted website can be found [here](https://binge-test.netlify.app) 
 
-In the project directory, you can run:
+***
 
-### `npm start`
+## Tech Stack Used-
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+React.js, HTML, CSS, JS.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## API Used
 
-### `npm test`
+TMDB API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***
 
-### `npm run build`
+## ScreenShots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Home Page-
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/56017960/116777187-ce670980-aa8a-11eb-979c-dd3f51a39709.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Login Page-
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![image](https://user-images.githubusercontent.com/56017960/116777202-e9397e00-aa8a-11eb-9bab-90c18872e102.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Dashboard-
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![screencapture-binge-test-netlify-app-dashboard-2021-05-01-14_43_32](https://user-images.githubusercontent.com/56017960/116777742-a1ffbd00-aa8b-11eb-813d-b0dce2d5a024.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Movie Page-
 
-## Learn More
+![image](https://user-images.githubusercontent.com/56017960/116777239-2271ee00-aa8b-11eb-88d3-5f77bfbb5584.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+***
 
-### Code Splitting
+### Setting Up the Project 🔧
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repo
 
-### Analyzing the Bundle Size
+   ```sh
+   git clone https://github.com/savi-1311/Binge
+   ```
+2. Install NPM packages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```sh
+   npm install
+   ```
+3. Create a .env file using the template .env.template and add values accordingly.
 
-### Making a Progressive Web App
+4. Run the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    ```sh 
+    npm start 
+    ```
+***
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Note: It is just a frontend layout, so login and sharing features won't work for real.
